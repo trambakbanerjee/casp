@@ -14,8 +14,8 @@ Soon this repository will hold the R-package casp which is currently under devel
 
 References
 =======
-[1.] Improved Shrinkage Prediction under a Spiked Covariance Structure _(under review)_    
-Banerjee, T., Mukherjee, G. and Paul, D.
+[1.] Improved Shrinkage Prediction under a Spiked Covariance Structure   
+Banerjee, T., Mukherjee, G. and Paul, D. _(under review)_ 
 
 [2.] Baik, J. and J. W. Silverstein (2006). Eigenvalues of large sample covariance matrices of spiked population models. Journal of Multivariate Analysis 97(6), 1382–1408.
 
