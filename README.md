@@ -10,7 +10,7 @@ quadratic, generalized absolute, and linex losses.
 How to use this repository?
 ----------
 
-Soon this repository will hold the R-package casp which is currently under development. Meanwhile you can use the scripts in the folder [Numerical Experiments](https://github.com/trambakbanerjee/CASP_paper) Experiments' to reproduce the analysis in our paper.  
+Soon this repository will hold the R-package casp which is currently under development. Meanwhile you can use the scripts in the folder [Numerical Experiments](https://github.com/trambakbanerjee/CASP_paper) to reproduce the analysis in our paper.  
 
 References
 =======
