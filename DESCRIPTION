@@ -1,0 +1,29 @@
+Package: casp
+Title: Coordinate-wise Adaptive Shrinkage Prediction
+Version: 1.0.0
+Authors@R: c(person(given = "Trambak",
+           family = "Banerjee",
+           role = c("aut", "cre"),
+           email = "trambak@ku.edu"),
+           person(given = "Gourab",
+           family = "Mukherjee",
+           role = c("aut"),
+           email = "gourab@usc.edu"),
+           person(given = "Debashis",
+           family = "Paul",
+           role = c("aut"),
+           email = "debpaul@ucdavis.edu"))
+Description: Provides the CASP rule for shrinkage prediction in
+    high-dimensional, non-exchangeable hierarchical Gaussian models 
+    with an unknown location as well as an unknown spiked covariance structure.
+    CASP utilizes the phase transition phenomenon of the sample eigenvalues 
+    and eigenvectors seen in spiked covariance models and improves 
+    upon naive factor model based methodology by using bias-corrected 
+    efficient estimates of quadratic forms involving the covariance matrix 
+    that appear in the Bayes predictive rules.
+License: GPL(>=2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/trambakbanerjee/casp#casp
