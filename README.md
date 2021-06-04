@@ -7,15 +7,20 @@ casp
 This is an R package for Coordinate-wise Adaptive Shrinkage Prediction (casp) in a high-dimensional non-exchangeable hierarchical Gaussian model with unknown location as well as unknown spiked covariance structure. CASP [1] uses results on the behavior of eigenvalues and eigenvectors of high-dimensional sample covariance matrix ([2], [3], [4]) to develop a bias-correction principle that leads to an efficient approach for evaluating the Bayes predictors corresponding to popular loss functions such as
 quadratic, generalized absolute, and linex losses.
  
-How to use this repository?
-----------
+Installation
+-----------
+You can install  `casp` using `devtools`.
 
-Soon this repository will hold the R-package casp which is currently under development. Meanwhile you can use the scripts in the folder [Numerical Experiments](https://github.com/trambakbanerjee/CASP_paper) to reproduce the analysis in our paper.  
+ ```R
+   devtools::install_github("trambakbanerjee/asus")
+   ```
+  
+  If you are looking for the R scripts that reproduce the analysis in the paper [1] then please use the folder [Numerical Experiments](https://github.com/trambakbanerjee/CASP_paper) for more information.  
 
 References
 =======
 [1.] Improved Shrinkage Prediction under a Spiked Covariance Structure   
-Banerjee, T., Mukherjee, G. and Paul, D. _(under review)_ 
+Banerjee, T., Mukherjee, G. and Paul, D. (2021) _(under review)_ 
 
 [2.] Baik, J. and J. W. Silverstein (2006). Eigenvalues of large sample covariance matrices of spiked population models. Journal of Multivariate Analysis 97(6), 1382–1408.
 
