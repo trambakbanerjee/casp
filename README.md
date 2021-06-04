@@ -12,7 +12,7 @@ Installation
 You can install  `casp` using `devtools`.
 
  ```R
-   devtools::install_github("trambakbanerjee/asus")
+   devtools::install_github("trambakbanerjee/casp")
    ```
   
   If you are looking for the R scripts that reproduce the analysis in the paper [1] then please use the folder [Numerical Experiments](https://github.com/trambakbanerjee/CASP_paper) for more information.  
