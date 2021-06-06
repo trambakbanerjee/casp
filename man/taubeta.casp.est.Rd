@@ -8,7 +8,7 @@ taubeta.casp.est(grid.val, rmt, mx, X)
 }
 \arguments{
 \item{grid.val}{a matrix with two columns. Each row of the matrix represents an
-element of the two dimensional grid. The first component represents a likely value for \eqn{\tau}
+element of a two dimensional grid. The first component represents a likely value for \eqn{\tau}
 while the second component is a likely value for \eqn{\beta}.}
 
 \item{rmt}{the output from \code{\link{rmt.est}}.}
@@ -24,7 +24,7 @@ while the second component is a likely value for \eqn{\beta}.}
 }
 \description{
 Provides an estimate of the hyper-parameters \eqn{(\tau,\beta)} using equation (15) of
-the casp paper (see the reference).
+the casp paper in the reference.
 }
 \details{
 This function relies on the output from \code{\link{rmt.est}} and calls \code{\link{g.est}}.

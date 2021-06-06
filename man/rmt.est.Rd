@@ -2,7 +2,7 @@
 % Please edit documentation in R/casplib.R
 \name{rmt.est}
 \alias{rmt.est}
-\title{rmt.est}
+\title{Estimation of leading eigenvalues and adjustment factors for the sample eigenvectors}
 \usage{
 rmt.est(K, S, mw)
 }
@@ -24,11 +24,12 @@ rmt.est(K, S, mw)
 }
 \description{
 Provides (1) efficient and bias corrected estimates of the leading eigenvalues
-of Sigma under a spiked covariance model, and (2) asymptotic adjustment factors
+of \eqn{\mathbf{Sigma}} under a spiked covariance model, and (2) asymptotic adjustment factors
 for the sample eigenvectors.
 }
 \details{
-This function is called by \code{\link{casp.checkloss}} and \code{\link{casp.linexloss}}
+This function is called by \code{\link{casp.checkloss}}, \code{\link{casp.linexloss}}
+and their counterparts for aggregated prediction.
 }
 \examples{
 library(casp)
@@ -50,5 +51,6 @@ Statistical Society: Series B (Statistical Methodology), 79(1):51-67, 2017.
 }
 }
 \seealso{
-\code{\link{eigen.est}}, \code{\link{casp.checkloss}}, \code{\link{casp.linexloss}}
+\code{\link{eigen.est}}, \code{\link{casp.checkloss}}, \code{\link{casp.linexloss}},
+\code{\link{casp.agg.checkloss}}, \code{\link{casp.agg.linexloss}}
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/casplib.R
 \name{eigen.est}
 \alias{eigen.est}
-\title{eigen.est}
+\title{Estimation of the leading eigenvalues of \eqn{\mathbf{\Sigma}} under a spiked covariance model}
 \usage{
 eigen.est(l, l.0, rho, K, n)
 }
@@ -20,7 +20,7 @@ eigen.est(l, l.0, rho, K, n)
 \value{
 \enumerate{
 \item l0.hat - bias corrected estimate of the unknown noise level
-\item l.hat - bias corrected estimates of the leading K eignevalues of \eqn{\mathbf{\Sigma}}
+\item l.hat - bias corrected estimates of the leading \eqn{K} eignevalues of \eqn{\mathbf{\Sigma}}
 }
 }
 \description{
@@ -54,5 +54,5 @@ Statistical Society: Series B (Statistical Methodology), 79(1):51-67, 2017.
 }
 }
 \seealso{
-\code{\link{rmt.est}}, \code{\link{casp.checkloss}}, \code{\link{casp.linexloss}}
+\code{\link{rmt.est}}
 }

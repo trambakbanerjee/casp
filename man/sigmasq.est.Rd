@@ -2,7 +2,7 @@
 % Please edit documentation in R/spikelib.R
 \name{sigmasq.est}
 \alias{sigmasq.est}
-\title{sigmasq.est}
+\title{Estimation of the unknown noise variance}
 \usage{
 sigmasq.est(lambdas, numObs, numOfSpikes)
 }

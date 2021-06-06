@@ -2,7 +2,7 @@
 % Please edit documentation in R/casplib.R
 \name{casp.linexloss}
 \alias{casp.linexloss}
-\title{casp.linexloss}
+\title{Coordinate-wise shrinkage prediction for disaggregated targets under Linex loss}
 \usage{
 casp.linexloss(X, S, a, tau, beta, eta, mx, mw, m0, type)
 }
@@ -37,7 +37,8 @@ the shrinkage factors are estimated.}
 }
 }
 \description{
-Main function for shrinkage prediction under Linex loss.
+Main function for disaggregated shrinkage prediction in high-dimensional, non-exchangeable hierarchical Gaussian models
+with an unknown location as well as an unknown spiked covariance structure under Linex loss.
 }
 \details{
 This function is based on Definition 2 of the casp paper, and relies on

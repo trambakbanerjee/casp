@@ -2,7 +2,7 @@
 % Please edit documentation in R/casplib.R
 \name{hfun.est}
 \alias{hfun.est}
-\title{hfun.est}
+\title{Provides an estimate of the function \eqn{\mathbf{H}_{r,\alpha,\beta}(\mathbf{\Sigma})}}
 \usage{
 hfun.est(r, alpha, beta, rmt, mx, tau)
 }
@@ -21,17 +21,18 @@ hfun.est(r, alpha, beta, rmt, mx, tau)
 }
 \value{
 \enumerate{
-\item h - an estimate of \eqn{H_{r,\alpha,\beta}}
+\item h - an estimate of \eqn{H_{r,\alpha,\beta}(\mathbf{\Sigma})}
 }
 }
 \description{
-Provides an estimate of \eqn{\mathbf{H}_{r,\alpha,\beta}} using equation (13) of
-the casp paper (see the reference).
+Provides an estimate of the function
+\deqn{\mathbf{H}_{r,\alpha,\beta}(\mathbf{\Sigma})=(\mathbf{\Sigma}^{-1}+\tau^{-1}\mathbf{\Sigma}^{-\beta})^{-r}\mathbf{\Sigma}^{\alpha}}
+using equation (13) of the casp paper in the reference.
 }
 \details{
 This function relies on the output from \code{\link{rmt.est}} and is called by \code{\link{casp.checkloss}},
-and \code{\link{casp.linexloss}}. Please see equation (13) of the casp paper in the reference
-to get more details about the estimation.
+\code{\link{casp.linexloss}} and their counterparts for aggregated prediction. Please see equation (13) of the casp
+paper in the reference to get more details about the estimation.
 }
 \examples{
 library(casp)

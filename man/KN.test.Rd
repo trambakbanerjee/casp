@@ -2,7 +2,7 @@
 % Please edit documentation in R/spikelib.R
 \name{KN.test}
 \alias{KN.test}
-\title{KN.test}
+\title{Estimation of the number of spikes \eqn{K} in a spiked covariance model}
 \usage{
 KN.test(S, numObs, alpha = 0.05)
 }
@@ -15,7 +15,7 @@ KN.test(S, numObs, alpha = 0.05)
 }
 \value{
 \enumerate{
-\item numOfSpikes - The number of spikes K
+\item numOfSpikes - The number of spikes \eqn{K}
 \item sigma.sq - Estimated noise variance
 }
 }
@@ -25,7 +25,7 @@ Estimate the number of spikes in a spiked covariance model using the procedure d
 \details{
 This method calculates the number of spikes in a spiked covariance model
 by iteratively comparing a standardized eigenvalue to the quantile of Tracy-Wisdom
-distribution for given significance level. The procedure is described in Kritchman and Nadler, (2009).
+distribution for given significance level \eqn{\alpha}. The procedure is described in Kritchman and Nadler, (2009).
 }
 \examples{
 library(casp)
