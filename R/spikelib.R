@@ -1,4 +1,4 @@
-#' KN.test
+#' Estimation of the number of spikes \eqn{K} in a spiked covariance model
 #'
 #' Estimate the number of spikes in a spiked covariance model using the procedure described in Kritchman and Nadler, (2009)
 #'
@@ -8,13 +8,13 @@
 #'
 #' @return
 #' \enumerate{
-#' \item numOfSpikes - The number of spikes K
+#' \item numOfSpikes - The number of spikes \eqn{K}
 #' \item sigma.sq - Estimated noise variance
 #' }
 #'
 #' @details This method calculates the number of spikes in a spiked covariance model
 #' by iteratively comparing a standardized eigenvalue to the quantile of Tracy-Wisdom
-#' distribution for given significance level. The procedure is described in Kritchman and Nadler, (2009).
+#' distribution for given significance level \eqn{\alpha}. The procedure is described in Kritchman and Nadler, (2009).
 #'
 #' @seealso \code{\link{sigmasq.est}}
 #'
@@ -49,7 +49,7 @@ KN.test <- function(S, numObs, alpha = 0.05) {
   return(list(numOfSpikes = spikes - 1, sigma.sq = est.sigma.sq))
 }
 
-#' sigmasq.est
+#' Estimation of the unknown noise variance
 #'
 #' Estimates the unknown noise variance based on the procedure described in Kritchman and Nadler, (2009)
 #'
